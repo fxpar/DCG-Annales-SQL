@@ -3,7 +3,12 @@ Bases de données des épreuves d'annales du DCG UE8 "Système d'informations"
 
 ## Objectif
 Permettre aux étudiants qui se préparent au DCG de travailler leurs requêtes en sql. 
-Les étudiants pourront trouver ici des bases de données sur lesquels tester leur compétences en matière de SQL
+Les étudiants pourront trouver ici des bases de données sur lesquels tester leur compétences en matière de SQL:
+* requête de sélection
+* requête d'ajout
+* requetes de mise à jour
+* requêtes de suppression
+
 
 ## Fonctionnement
 
@@ -29,3 +34,16 @@ Le format de date utilisé ici est tout simplement un champ de type texte au for
 ````
 select * from Permanent where DateEmbauche BETWEEN '2015-01-01' and '2020-01-01'
 ````
+
+
+
+## Ressources et détails techniques
+
+J'ai commencé par créer les tables dans un fichier Excel.
+Comme indiqué plus haut, j'ai rencontré des difficultés avec les dates, que j'ai dû convertir au format text aaaa-mm-jj.
+
+Le logiciel de conversion https://www.rebasedata.com/convert-excel-to-sqlite-online est ensuite utilisé pour obtenir un fichier sqlite.
+
+
+
+
