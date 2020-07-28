@@ -15,5 +15,5 @@ La principale différence concerne les fonctions de date qui ne sont pas disponi
 Pour avoir l'année d'une date on utilise la fonction strftime('%Y', maDate)
 
 ````
-SELECT * from Saisonnier where strftime('%Y', DateDebutMission) = '2020';
+SELECT * from Permanent where strftime('%Y', DateEmbauche) = '2018';
 ````
