@@ -3,6 +3,8 @@ Bases de données des épreuves d'annales du DCG UE8 "Système d'informations"
 
 ## Objectif
 Permettre aux étudiants qui se préparent au DCG de travailler leurs requêtes en sql. 
+Notamment lorsque l'université n'a pas de licence Access.
+
 Les étudiants pourront trouver ici des bases de données sur lesquels tester leur compétences en matière de SQL:
 * requête de sélection
 * requête d'ajout
@@ -13,7 +15,7 @@ Les étudiants pourront trouver ici des bases de données sur lesquels tester le
 ## Fonctionnement
 
 ### Logiciel recommandés
-Les versions sqlite sont à utiliser avec le logiciel [DB Browser for Sqlite](https://sqlitebrowser.org/) disponible pour PC, Mac et Linux.
+Les versions sqlite sont à utiliser avec le logiciel gratuit et opensource [DB Browser for Sqlite](https://sqlitebrowser.org/) disponible pour PC, Mac et Linux.
 
 ![Requête et structure](https://github.com/fxpar/DCG-Annales-SQL/blob/master/screenshots/2019Structure.png)
 
