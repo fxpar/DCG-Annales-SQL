@@ -30,7 +30,7 @@ Détaillez votre réponse.
 
 ## À propos du sujet
 
-Deux difficultés sont présentes
+Trois concepts sont présents:
 - la pseudo entité SECTEUR-HOTEL
 - l'entité faible Appartenir-LODGE
 - la contrainte d'exclusion et de totalité XT
