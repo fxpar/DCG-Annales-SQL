@@ -1,4 +1,12 @@
 # Annale 2019
+J'ai créé un jeu de données correspondant au sujet de 2019.
+- les 16 hotels avec leur nom et ville
+- 50 salariés avec prénom et nom
+- 100 lodge avec nom et type
+- les dates des Saisonniers et Permanents
+
+Le fichier est téléchargeable et modifiable librement. Si trouvez une incohérence, merci de la signaler (notamment au travers d'un "bug" sur github).
+
 
 ## Sources
 L'annale de 2019 est disponible avec son corrigé sur http://crcf.ac-grenoble.fr/index.php?tg=articles&topics=100&new=0&newc=0
