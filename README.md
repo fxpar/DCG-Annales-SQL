@@ -10,9 +10,9 @@ Les étudiants pourront trouver ici des bases de données sur lesquels tester le
 ### Logiciel recommandés
 Les versions sqlite sont à utiliser avec le logiciel "DB Browser for Sqlite" disponible pour PC, Mac et Linux.
 
-("Requête et structure")![https://github.com/fxpar/DCG-Annales-SQL/blob/master/screenshots/2019Structure.png]
+![Requête et structure](https://github.com/fxpar/DCG-Annales-SQL/blob/master/screenshots/2019Structure.png)
 
-("Requête et structure")![https://github.com/fxpar/DCG-Annales-SQL/blob/master/screenshots/2019RequeteEtStructure.png]
+![Requête et structure](https://github.com/fxpar/DCG-Annales-SQL/blob/master/screenshots/2019RequeteEtStructure.png)
 
 
 
