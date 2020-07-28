@@ -8,11 +8,6 @@ J'ai créé un jeu de données correspondant au sujet de 2019.
 Le fichier est téléchargeable et modifiable librement. Si trouvez une incohérence, merci de la signaler (notamment au travers d'un "bug" sur github).
 
 
-## Sources
-L'annale de 2019 est disponible avec son corrigé sur http://crcf.ac-grenoble.fr/index.php?tg=articles&topics=100&new=0&newc=0
-
-La liste des prénoms vient de la liste des prénoms les plus attribués en France en 2018... J'ai pris les 50 premiers.
-
 ## Sujet SQL
 
 * 4. Rédigez en langage SQL (Structured Query Language) les requêtes suivantes :
@@ -38,6 +33,9 @@ AND PrenomEmp = "Jean"
   * a) À quelle condition la requête précédente peut-elle être réalisée sans message d’erreur ?
 Détaillez votre réponse.
 
+
+
+
 ## À propos du sujet
 
 Trois concepts sont présents:
@@ -50,5 +48,20 @@ Spontanément, j'aurais créé une table des saisonniers avec les différentes m
 Visiblement, le créateur du sujet a eu pitié des étudiants et il me semble que ne peuvent apparaître que la "mission en cours" d'un salarié.  
 Je ne pense pas que nous ayons ici la possibilité d'avoir l'historique des missions d'un même salarié saisonnier qui reviendrait. J'ai donc suivi la correction de Grenoble qui pose le champs SAISONNIER.<ins>#CodeEmp</ins> comme clé primaire
 
+## Versions
 
+### Sqlite
+- la contrainte d'exclusion est réalisée via un "Check"
+
+### Access
+- pas encore de contrainte d'exclusion
+- l'intégrité référentielle est activée
+
+### Mysql
+- la contrainte d'exclusion n'est pas implémentée (à faire via "trigger)
+
+## Sources
+L'annale de 2019 est disponible avec son corrigé sur http://crcf.ac-grenoble.fr/index.php?tg=articles&topics=100&new=0&newc=0
+
+La liste des prénoms vient de la liste des prénoms les plus attribués en France en 2018... J'ai pris les 50 premiers.
 
