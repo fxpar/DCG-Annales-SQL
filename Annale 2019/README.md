@@ -11,6 +11,8 @@ Le fichier est téléchargeable et modifiable librement. Si trouvez une incohér
 ## Sources
 L'annale de 2019 est disponible avec son corrigé sur http://crcf.ac-grenoble.fr/index.php?tg=articles&topics=100&new=0&newc=0
 
+La liste des prénoms vient de la liste des prénoms les plus attribués en France en 2018... J'ai pris les 50 premiers.
+
 ## Sujet SQL
 
 * 4. Rédigez en langage SQL (Structured Query Language) les requêtes suivantes :
@@ -47,3 +49,7 @@ Trois concepts sont présents:
 Spontanément, j'aurais créé une table des saisonniers avec les différentes missions, d'années en années, des salariés.  
 Visiblement, le créateur du sujet a eu pitié des étudiants et il me semble que ne peuvent apparaître que la "mission en cours" d'un salarié.  
 Je ne pense pas que nous ayons ici la possibilité d'avoir l'historique des missions d'un même salarié saisonnier qui reviendrait. J'ai donc suivi la correction de Grenoble qui pose le champs SAISONNIER.<ins>#CodeEmp</ins> comme clé primaire
+
+### Responsables
+J'ai fait en sorte que certains salariés soient responsables d'un secteur pour les deux hotels d'Antibes.
+
