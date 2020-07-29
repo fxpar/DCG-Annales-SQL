@@ -12,9 +12,16 @@ Les étudiants pourront trouver ici des bases de données sur lesquels tester le
 * requêtes de suppression
 
 
-## Fonctionnement
+## Mode d'emploi
 
-### Logiciel recommandés
+1. Téléchargez et installez sur votre machine le logiciel gratuit et opensource [DB Browser for Sqlite](https://sqlitebrowser.org/) disponible pour PC, Mac et Linux.
+1. Ouvrez le dossier d'une annale (voir ci-dessus) et téléchargez le fichier se terminant par **.sqlite**
+1. Dans DB */Browser for Sqlite*/, cliquez sur "ouvrir une base de donnée" et choisissez le fichier de l'annale que vous venez de télécharger
+1. En vous servant des différents onglet de la barre du haut, vous pouvez maintenant soit parcourir les données, soit écrire et éxécuter une requête sql
+1. N'hésitez pas à cliquer dans le menu "Vue" tout en haut pour afficher le menu (DB Schéma), cela aide d'avoir la structure de la base quand on écrit sa requête
+1. Le corrigé des annales est disponible en ligne sur le site de l'université de Grenoble (un grand merci aux auteurs!)
+
+### Si vous n'avez pas Access
 Les versions sqlite sont à utiliser avec le logiciel gratuit et opensource [DB Browser for Sqlite](https://sqlitebrowser.org/) disponible pour PC, Mac et Linux.
 
 ![Requête et structure](https://github.com/fxpar/DCG-Annales-SQL/blob/master/screenshots/2019Structure.png)
