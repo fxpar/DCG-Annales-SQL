@@ -58,6 +58,7 @@ Je ne pense pas que nous ayons ici la possibilité d'avoir l'historique des miss
 - l'intégrité référentielle est activée
 
 ### Mysql
+- les relations sont bien présente dans le script mais elles ne semblent pas prise en compte lors de l'import (testé via phpmyadmin).
 - la contrainte d'exclusion n'est pas implémentée (à faire via "trigger)
 
 ## Sources
