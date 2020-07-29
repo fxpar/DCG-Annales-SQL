@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Jul 28, 2020 at 11:49 PM
+-- Generation Time: Jul 29, 2020 at 12:08 AM
 -- Server version: 5.7.11
 -- PHP Version: 7.0.3
 
@@ -26,11 +26,22 @@ SET time_zone = "+00:00";
 -- Table structure for table `concerner`
 --
 
+DROP TABLE IF EXISTS `concerner`;
 CREATE TABLE `concerner` (
   `#NumSecteur` decimal(2,1) NOT NULL,
   `#NumHotel` decimal(3,1) NOT NULL,
   `#CodeEmp` decimal(3,1) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- RELATIONS FOR TABLE `concerner`:
+--   `#CodeEmp`
+--       `permanent` -> `#CodeEmpPerm`
+--   `#NumHotel`
+--       `hotel` -> `NumHotel`
+--   `#NumSecteur`
+--       `secteur` -> `NumSecteur`
+--
 
 --
 -- Dumping data for table `concerner`
@@ -69,6 +80,7 @@ INSERT INTO `concerner` (`#NumSecteur`, `#NumHotel`, `#CodeEmp`) VALUES
 -- Table structure for table `employe`
 --
 
+DROP TABLE IF EXISTS `employe`;
 CREATE TABLE `employe` (
   `CodeEmp` tinyint(4) NOT NULL,
   `NomEmp` varchar(7) CHARACTER SET utf8mb4 DEFAULT NULL,
@@ -82,6 +94,14 @@ CREATE TABLE `employe` (
   `#NumSecteur` int(11) NOT NULL,
   `#NumHotel` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- RELATIONS FOR TABLE `employe`:
+--   `#NumHotel`
+--       `hotel` -> `NumHotel`
+--   `#NumSecteur`
+--       `secteur` -> `NumSecteur`
+--
 
 --
 -- Dumping data for table `employe`
@@ -146,6 +166,7 @@ INSERT INTO `employe` (`CodeEmp`, `NomEmp`, `PrénomEmp`, `RueEmp`, `VilleEmp`, 
 -- Table structure for table `hotel`
 --
 
+DROP TABLE IF EXISTS `hotel`;
 CREATE TABLE `hotel` (
   `NumHotel` tinyint(4) NOT NULL,
   `NomHotel` varchar(22) CHARACTER SET utf8mb4 DEFAULT NULL,
@@ -155,6 +176,10 @@ CREATE TABLE `hotel` (
   `VilleHotel` varchar(15) CHARACTER SET utf8mb4 DEFAULT NULL,
   `PaysHotel` varchar(7) CHARACTER SET utf8mb4 DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- RELATIONS FOR TABLE `hotel`:
+--
 
 --
 -- Dumping data for table `hotel`
@@ -186,6 +211,7 @@ INSERT INTO `hotel` (`NumHotel`, `NomHotel`, `NbEtoiles`, `RueHotel`, `CPHotel`,
 -- Table structure for table `lodge`
 --
 
+DROP TABLE IF EXISTS `lodge`;
 CREATE TABLE `lodge` (
   `NumLodge` smallint(6) NOT NULL,
   `NomLodge` varchar(14) CHARACTER SET utf8mb4 DEFAULT NULL,
@@ -196,6 +222,14 @@ CREATE TABLE `lodge` (
   `#NumHotel` decimal(3,1) DEFAULT NULL,
   `#CodeType` decimal(2,1) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- RELATIONS FOR TABLE `lodge`:
+--   `#CodeType`
+--       `type` -> `CodeType`
+--   `#NumHotel`
+--       `hotel` -> `NumHotel`
+--
 
 --
 -- Dumping data for table `lodge`
@@ -309,10 +343,17 @@ INSERT INTO `lodge` (`NumLodge`, `NomLodge`, `CapaciteAccueil`, `NbPieces`, `NbL
 -- Table structure for table `permanent`
 --
 
+DROP TABLE IF EXISTS `permanent`;
 CREATE TABLE `permanent` (
   `DateEmbauche` varchar(10) CHARACTER SET utf8mb4 DEFAULT NULL,
   `#CodeEmpPerm` decimal(3,1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- RELATIONS FOR TABLE `permanent`:
+--   `#CodeEmpPerm`
+--       `concerner` -> `#CodeEmp`
+--
 
 --
 -- Dumping data for table `permanent`
@@ -350,12 +391,19 @@ INSERT INTO `permanent` (`DateEmbauche`, `#CodeEmpPerm`) VALUES
 -- Table structure for table `saisonnier`
 --
 
+DROP TABLE IF EXISTS `saisonnier`;
 CREATE TABLE `saisonnier` (
   `DateDebutMission` varchar(10) CHARACTER SET utf8mb4 DEFAULT NULL,
   `DateFinMission` varchar(10) CHARACTER SET utf8mb4 DEFAULT NULL,
   `Prime` decimal(5,1) DEFAULT NULL,
   `#CodeEmpSais` decimal(3,1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- RELATIONS FOR TABLE `saisonnier`:
+--   `#CodeEmpSais`
+--       `employe` -> `CodeEmp`
+--
 
 --
 -- Dumping data for table `saisonnier`
@@ -396,10 +444,15 @@ INSERT INTO `saisonnier` (`DateDebutMission`, `DateFinMission`, `Prime`, `#CodeE
 -- Table structure for table `secteur`
 --
 
+DROP TABLE IF EXISTS `secteur`;
 CREATE TABLE `secteur` (
   `NumSecteur` tinyint(4) NOT NULL,
   `NomSecteur` varchar(27) CHARACTER SET utf8mb4 DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- RELATIONS FOR TABLE `secteur`:
+--
 
 --
 -- Dumping data for table `secteur`
@@ -420,12 +473,17 @@ INSERT INTO `secteur` (`NumSecteur`, `NomSecteur`) VALUES
 -- Table structure for table `type`
 --
 
+DROP TABLE IF EXISTS `type`;
 CREATE TABLE `type` (
   `CodeType` tinyint(4) NOT NULL,
   `LibelléType` varchar(10) CHARACTER SET utf8mb4 DEFAULT NULL,
   `TarifSemaine` decimal(5,1) DEFAULT NULL,
   `TarifNuitée` decimal(4,1) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- RELATIONS FOR TABLE `type`:
+--
 
 --
 -- Dumping data for table `type`
