@@ -5,7 +5,7 @@ Bases de données des épreuves d'annales du DCG UE8 "Système d'informations"
 Permettre aux étudiants qui se préparent au DCG de travailler leurs requêtes en sql. 
 Notamment lorsque l'université n'a pas de licence Access.
 
-Les étudiants pourront trouver ici des bases de données sur lesquels tester leur compétences en matière de SQL:
+Les étudiants pourront trouver ici des bases de données sur lesquelles tester leur compétences en matière de SQL:
 * requête de sélection
 * requête d'ajout
 * requetes de mise à jour
