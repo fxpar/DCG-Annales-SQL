@@ -14,7 +14,7 @@ Les étudiants pourront trouver ici des bases de données sur lesquelles tester 
 
 ## Mode d'emploi
 
-1. Téléchargez et installez sur votre machine le logiciel gratuit et opensource [DB Browser for Sqlite](https://sqlitebrowser.org/) disponible pour PC, Mac et Linux.
+1. Téléchargez et installez sur votre machine le logiciel gratuit et opensource [DB Browser for Sqlite](https://sqlitebrowser.org/) disponible pour PC, Mac, Chromebook, Linux.
 1. Ouvrez le dossier d'une annale (voir ci-dessus) et téléchargez le fichier se terminant par **.sqlite**
 1. Dans *DB Browser for Sqlite*, cliquez sur "ouvrir une base de donnée" et choisissez le fichier de l'annale que vous venez de télécharger
 1. En vous servant des différents onglet de la barre du haut, vous pouvez maintenant soit parcourir les données, soit écrire et éxécuter une requête sql
