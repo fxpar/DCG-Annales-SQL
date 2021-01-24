@@ -28,6 +28,15 @@
  
 Le référentiel officiel 
 
+# À Faire
+
+[X] Vérifier les axes
+[X] Vérifier les UE
+[X] Vérifier le niveau 1
+[X] Vérifier le niveau 2
+[ ] Vérifier le niveau 3
+[ ] Mettre les savoirs associés en liste (ul et li) au lieu de paragraphe (p)
+
 # Ressources
 
 ## Référentiel DCG 2019
