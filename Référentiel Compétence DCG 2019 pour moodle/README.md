@@ -3,7 +3,7 @@
  
  Voici une conversion du référentiel au format importable dans Moodle.
  
- ![test](https://github.com/fxpar/DCG-Annales-SQL/blob/master/R%C3%A9f%C3%A9rentiel%20Comp%C3%A9tence%20DCG%202019%20pour%20moodle/images/R%C3%A9f%C3%A9rentiel-DCG-2019.png)
+ ![test](https://github.com/fxpar/DCG-Annales-SQL/blob/master/R%C3%A9f%C3%A9rentiel%20Comp%C3%A9tence%20DCG%202019%20pour%20moodle/images/R%C3%A9f%C3%A9rentiel-DCG-2019-fr.png)
  
  # Adaptation
  
@@ -32,6 +32,10 @@ Deux tuto en français pour comprendre le fonctionnement de l'outil compétences
 (version 2020, non répertoriée)
 https://www.youtube.com/watch?v=Biwe5eXO5I8
 
+[![Moodle Compétences 2020](https://img.youtube.com/vi/Biwe5eXO5I8/0.jpg)](https://www.youtube.com/watch?v=Biwe5eXO5I8)
+
 (version 2017, publique)
 https://www.youtube.com/watch?v=9q81Hyv0rXw
+
+[![Moodle Compétences 2020](https://img.youtube.com/vi/9q81Hyv0rXw/0.jpg)](https://www.youtube.com/watch?v=9q81Hyv0rXw)
 
