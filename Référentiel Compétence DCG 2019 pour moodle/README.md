@@ -20,6 +20,7 @@
  Le référentiel officiel contient une hierarchies 1, 1.1, 1.1.1, ... Certains niveaux contiennent directement des compétences.
  
  Dans l'outil Moodle, on doit dire précisément si un niveau est un "domaine" ou "une compétence" (ou d'autres types: comme des valeurs...).
+ (une demande de modification a été faite: [tracker](https://tracker.moodle.org/browse/MDL-70652))
  
  Nous avons donc choisi de mettre toutes les compétences dans le dernier "sous-niveau" pour obtenir un modèle clair.
  
@@ -55,4 +56,9 @@ https://www.youtube.com/watch?v=Biwe5eXO5I8
 https://www.youtube.com/watch?v=9q81Hyv0rXw
 
 [![Moodle Compétences 2020](https://img.youtube.com/vi/9q81Hyv0rXw/0.jpg)](https://www.youtube.com/watch?v=9q81Hyv0rXw)
+
+## Demande de modification du module compétences de moodle
+
+* Conversation dans le forum: https://moodle.org/mod/forum/discuss.php?d=416830
+* tracker https://tracker.moodle.org/browse/MDL-70652
 
