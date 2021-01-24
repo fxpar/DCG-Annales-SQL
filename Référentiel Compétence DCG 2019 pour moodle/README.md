@@ -18,3 +18,18 @@
  
 Le référentiel officiel 
 
+# Ressources
+
+## Référentiel DCG 2019
+https://cache.media.enseignementsup-recherche.gouv.fr/file/25/01/5/ensup135_annexe1_1142015.pdf
+
+## Tutoriel Moodle Compétences
+
+Deux tuto en français pour comprendre le fonctionnement de l'outil compétences dans Moodle.
+
+(version 2020, non répertoriée)
+https://www.youtube.com/watch?v=Biwe5eXO5I8
+
+(version 2017, publique)
+https://www.youtube.com/watch?v=9q81Hyv0rXw
+
