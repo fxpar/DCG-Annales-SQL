@@ -1,9 +1,17 @@
- # Objectif
+# 🚧 En cours d'élaboration...🚧
+
+⚠️ il s'agit d'une version béta contenant encore des erreurs
+
+# Objectif
  L'outil gestion des compétences de moodle permet de rattacher les compétences à des cours, et à des activités dans les cours. Il permet également de créer un plan de formation pour les étudiants.
  
  Voici une conversion du référentiel au format importable dans Moodle.
  
  ![test](https://github.com/fxpar/DCG-Annales-SQL/blob/master/R%C3%A9f%C3%A9rentiel%20Comp%C3%A9tence%20DCG%202019%20pour%20moodle/images/R%C3%A9f%C3%A9rentiel-DCG-2019-fr.png)
+ 
+ # Version
+ Il s'agit pour l'instant d'une version de travail qui contient encore de nombreuses erreur.
+ 
  
  # Adaptation
  
