@@ -1,11 +1,13 @@
 ﻿ID de la compétence parente;ID;Nom abrégé;Description;Format de description;Valeurs du barème;configuration du barème;Type de règle de compétence (optionnelle);Règle d'objectif (optionnelle);Règle de paramétrage (optionnelle);IDs des compétences croisées associées;ID d'exportation (optionnel);Est un référentiel;Taxonomie
-;dcg-2019;DCG réforme 2019;;1;Not yet competent,Competent;"[{""scaleid"":""2""},{""id"":1,""scaledefault"":1,""proficient"":0},{""id"":2,""scaledefault"":0,""proficient"":1}]";;;;;;1;domain,domain,domain,domain,domain,competency
-;1.0.0.0.0.0;AXE 1 : DROIT DES AFFAIRES ;;;;;;;;;;;
-1.0.0.0.0.0;1.0.0.0.0.1;Rechercher et analyser une documentation juridique fiable et actualisée;;1;;;;;;;;;
-1.0.0.0.0.0;1.0.0.0.0.2;Analyser une décision de justice et en dégager la portée;;1;;;;;;;;;
-1.0.0.0.0.0;1.0.0.0.0.3;Qualifier et analyser un contrat ou un document professionnel;;1;;;;;;;;;
-1.0.0.0.0.0;1.0.0.0.0.4;Qualifier les faits, articuler un raisonnement juridique et proposer une solution adaptée, dans le cadre d’une situation juridique donnée;;1;;;;;;;;;
-1.0.0.0.0.0;1.1.0.0.0.0;UE 1 - FONDAMENTAUX DU DROIT  ;;1;;;;;;;;;
+;dcg-2019;DCG réforme 2019;"<p>Mise en forme par François Parlant à partir du Bulletin officiel n°25 du 20-06-2019.</p> <p>VERSION <b>0.4</b> du 24/01/2021</p> <p>Le détail de la conversion et les mises à jours sont disponibles sur: <a href=""https://github.com/fxpar/DCG-Annales-SQL/tree/master/R%C3%A9f%C3%A9rentiel%20Comp%C3%A9tence%20DCG%202019%20pour%20moodle"">https://github.com/fxpar/DCG-Annales-SQL/tree/master/R%C3%A9f%C3%A9rentiel%20Comp%C3%A9tence%20DCG%202019%20pour%20moodle</a></p>";1;Not yet competent,Competent;"[{""scaleid"":""2""},{""id"":1,""scaledefault"":1,""proficient"":0},{""id"":2,""scaledefault"":0,""proficient"":1}]";;;;;;1;domain,domain,domain,domain,domain,competency
+;1.0.0.0.0.0;AXE 1 : DROIT DES AFFAIRES ;"<p>Les unités d’enseignement (UE) des « fondamentaux du droit » (UE 1), de « droit des sociétés et des groupements d’affaire » (UE 2), de « droit social » (UE 3) et de « droit fiscal » (UE 4) ont pour objet de fournir au titulaire du DCG une connaissance juridique du fonctionnement des organisations. </p>
+<p>Ces unités d’enseignement devront, notamment, permettre le développement de compétences spécifiques :  </p>";1;;;;;;;;;
+1.0.0.0.0.0;1.0.0.0.0.1;Identifier et hiérarchiser les sources juridiques;;1;;;;;;;;;
+1.0.0.0.0.0;1.0.0.0.0.2;Rechercher et analyser une documentation juridique fiable et actualisée;;1;;;;;;;;;
+1.0.0.0.0.0;1.0.0.0.0.3;Analyser une décision de justice et en dégager la portée;;1;;;;;;;;;
+1.0.0.0.0.0;1.0.0.0.0.4;Qualifier et analyser un contrat ou un document professionnel;;1;;;;;;;;;
+1.0.0.0.0.0;1.0.0.0.0.5;Qualifier les faits, articuler un raisonnement juridique et proposer une solution adaptée, dans le cadre d’une situation juridique donnée;;1;;;;;;;;;
+1.0.0.0.0.0;1.1.0.0.0.0;UE 1 - FONDAMENTAUX DU DROIT  ;<p>Niveau L – 150 heures – 14 ECTS </p>;1;;;;;;;;;
 1.1.0.0.0.0;1.1.1.0.0.0;1- Introduction générale au droit (45 heures) ;;1;;;;;;;;;
 1.1.1.0.0.0;1.1.1.1.0.0;1.1 Introduction ;<h5>Sens et portée de l’étude</h5><p>La règle de droit est une construction sociale qui évolue en fonction des besoins de la société : à travers elle s’expriment certaines valeurs fondamentales. La règle de droit a pour objet de rendre possible la vie en société. Pour ce faire, elle est aussi un instrument de contrainte. </p><p>La prise en compte des finalités du droit permet de comprendre le sens de la règle, de l’interpréter et éventuellement d’en prévoir l’évolution. </p><p>Le droit distingue, classe et ordonne des situations données. En France, il repose sur une summa divisio qui distingue droit public et droit privé. Le droit se différencie d’autres règles sociales telles que la morale et l’éthique. </p><h5>Savoirs associés</h5><ul><li>* les finalités du droit. </li><li>* les caractères de la règle de droit.  </li><li>* les autres règles sociales : morale et éthique. </li><li>* les branches du droit. </li></ul>;1;;;;;;;;;
 1.1.1.1.0.0;1.1.1.1.0.1;Distinguer la règle de droit des autres règles de la vie sociale;;1;;;;;;;;;
@@ -73,7 +75,7 @@
 1.1.4.0.0.0;1.1.4.0.0.3;"Apprécier le respect des conditions de mise en œuvre de la responsabilité civile et les causes possibles d’exonération dans une situation juridique donnée ; - identifier les caractéristiques du préjudice réparable dans une situation juridique donnée";;1;;;;;;;;;
 1.1.4.0.0.0;1.1.4.0.0.4;Vérifier la présence des conditions de la responsabilité pénale, pour une situation juridique donnée;;1;;;;;;;;;
 1.1.4.0.0.0;1.1.4.0.0.5;Identifier les actions en responsabilité possibles dans une situation juridique donnée.  ;;1;;;;;;;;;
-1.0.0.0.0.0;1.2.0.0.0.0;UE 2 - DROIT DES SOCIÉTÉS ET DES GROUPEMENTS D’AFFAIRES  ;;1;;;;;;;;;
+1.0.0.0.0.0;1.2.0.0.0.0;UE 2 - DROIT DES SOCIÉTÉS ET DES GROUPEMENTS D’AFFAIRES  ;<p>Niveau L – 150 heures – 14 ECTS </p>;1;;;;;;;;;
 1.2.0.0.0.0;1.2.1.0.0.0;1- L’entreprise en société (40 heures) ;;1;;;;;;;;;
 1.2.1.0.0.0;1.2.1.1.0.0;1.1 La notion de société ;"<h5>Sens et portée de l’étude</h5><p>Le droit des sociétés a une histoire marquée par de grandes lois complétant le Code civil. C’est un droit qui a souvent accompagné les mutations économiques. Les différentes formes sociétaires n’ont pas été créées ex nihilo mais pour répondre à des besoins. La forme sociétaire n’est toutefois pas la seule forme juridique utilisée pour l’exercice d’une activité économique. </p><h5>Savoirs associés</h5><ul><li>* définition de la société ; </li><li>* sources et évolution du droit des sociétés ; - EIRL et entreprise individuelle.  </li></ul>";1;;;;;;;;;
 1.2.1.1.0.0;1.2.1.1.0.1;"Identifier les sources du droit des sociétés ; - repérer les grandes évolutions historiques et économiques ayant donné naissance aux différentes formes sociétaires";;1;;;;;;;;;
@@ -140,7 +142,7 @@
 1.2.6.0.0.0;1.2.6.2.0.0;6.2 Les infractions de droit commun applicables aux affaires et les infractions spécifiques du droit pénal des sociétés et groupements d’affaires ;"<h5>Sens et portée de l’étude</h5><p>Les infractions de droit commun visent surtout à protéger la propriété intéressant la vie des affaires. Principe constitutionnel, la propriété est ici protégée par l’abus de confiance ou l’escroquerie. Mais elles ont également comme objectif de renforcer la probité des comportements des acteurs économiques afin de maintenir la crédibilité du système économique. Le rôle régulateur du droit pénal trouve ici tout son sens.  </p><h5>Savoirs associés</h5><ul><li>* l’abus de confiance ; </li><li>* l’escroquerie ; </li><li>* les faux et usage de faux ; </li><li>* le recel ; </li><li>* l’abus de biens et du crédit de la société ; </li><li>* la distribution de dividendes fictifs ; </li><li>* la présentation ou publication de bilan ne donnant pas une image fidèle ; </li><li>* la surévaluation des apports ; </li><li>* les infractions remettant en cause le bon déroulement de la mission de contrôle du CAC. </li></ul>";1;;;;;;;;;
 1.2.6.2.0.0;1.2.6.2.0.1;Repérer et nommer les éléments constitutifs de chaque ;;1;;;;;;;;;
 1.2.6.2.0.0;1.2.6.2.0.2;Distinguer les infractions de droit commun des infractions spécifiques;;1;;;;;;;;;
-1.0.0.0.0.0;1.3.0.0.0.0;UE 3 - DROIT SOCIAL  ;;1;;;;;;;;;
+1.0.0.0.0.0;1.3.0.0.0.0;UE 3 - DROIT SOCIAL  ;<p>Niveau L – 150 heures – 14 ECTS</p>;1;;;;;;;;;
 1.3.0.0.0.0;1.3.1.0.0.0;1- Introduction au droit du travail (20 heures) ;;1;;;;;;;;;
 1.3.1.0.0.0;1.3.1.1.0.0;1.1 Évolutions et sources du droit du travail  ;"<h5>Sens et portée de l’étude</h5><p>Cette introduction a pour objet de :  </p><p>* donner une approche du droit du travail ; </p><p>* définir les sources documentaires et préciser comment s’en servir ; </p><p>* distinguer les différentes normes qui fondent les droits et obligations des employeurs et des salariés ; </p><p>* comprendre la hiérarchie des normes ; </p><p>* appréhender les enjeux contemporains du droit du travail : flexisécurité, sécurisation des parcours professionnels notamment. </p><h5>Savoirs associés</h5><ul><li>* repères historiques relatifs à la construction du droit du travail ; </li><li>* définition du droit du travail :  </li><li>* * caractères du droit du travail : protection du salarié, dimension collective des relations de travail, conflits et évolutions en lien avec le contexte économique </li><li>* * champ d’application. </li><li>* principes récents en droit du travail : égalité hommefemme, égalité de traitement, non-discrimination ; - sources spécifiques au droit du travail : sources internationales et sources européennes, sources nationales étatiques et professionnelles, jurisprudence, contrat de travail, usages et engagements unilatéraux de l’employeur ; </li><li>* importance des sources professionnelles : place accordée à l’accord d’entreprise au sein du droit négocié ; - hiérarchie des normes et règles de résolution des conflits de normes. </li></ul>";1;;;;;;;;;
 1.3.1.1.0.0;1.3.1.1.0.1;Donner une approche du droit du travail;;1;;;;;;;;;
@@ -252,7 +254,7 @@
 1.3.4.6.0.0;1.3.4.6.0.1;Identifier les personnes assujetties;;1;;;;;;;;;
 1.3.4.6.0.0;1.3.4.6.0.2;Identifier les organismes en charge de ce régime;;1;;;;;;;;;
 1.3.4.6.0.0;1.3.4.6.0.3;Caractériser le régime social de l’assujetti;;1;;;;;;;;;
-1.0.0.0.0.0;1.4.0.0.0.0;UE 4 - DROIT FISCAL  ;;1;;;;;;;;;
+1.0.0.0.0.0;1.4.0.0.0.0;UE 4 - DROIT FISCAL  ;<p>Niveau L : 150 heures – 14 ECTS </p>;1;;;;;;;;;
 1.4.0.0.0.0;1.4.1.0.0.0;1- Introduction générale au droit fiscal (5 heures) ;<h5>Sens et portée de l’étude</h5><p>Le pouvoir de prélever l’impôt est inscrit dans la Constitution. En pratique, les impôts sont nombreux et contribuent de manière variable à alimenter les recettes budgétaires de l’État ou des collectivités territoriales. Cette diversité des prélèvements a donné naissance à différentes tentatives de classifications des impôts et taxes. Si la loi constitue la source essentielle du droit fiscal, il est nécessaire de prendre en considération d’autres sources : le droit de l’Union européenne, les conventions fiscales internationales… </p><h5>Savoirs associés</h5><ul><li>* Caractéristiques du droit fiscal. </li><li>* Sources du droit fiscal. </li><li>* Classifications des impôts et taxes  </li><li>* Organisation et rôle de l’administration fiscale. - Rôle du juge fiscal. </li><li>* Nécessité et mise en œuvre d’une veille fiscale. </li></ul>;1;;;;;;;;;
 1.4.1.0.0.0;1.4.1.0.0.1;Repérer et distinguer le droit fiscal parmi les différentes branches du droit;;1;;;;;;;;;
 1.4.1.0.0.0;1.4.1.0.0.2;Caractériser les principales sources du droit fiscal. - Identifier les principaux prélèvements obligatoires;;1;;;;;;;;;
@@ -322,13 +324,14 @@
 1.4.8.0.0.0;1.4.8.0.0.1;Expliquer les principes généraux du contrôle fiscal. - Déterminer les délais de prescription et les garanties du contribuable;;1;;;;;;;;;
 1.4.8.0.0.0;1.4.8.0.0.2;Déterminer les sanctions des principales infractions aux obligations fiscales;;1;;;;;;;;;
 1.4.8.0.0.0;1.4.8.0.0.3;Identifier la juridiction compétente en cas de contentieux.  ;;1;;;;;;;;;
-;2.0.0.0.0.0;AXE 2 : GESTION COMPTABLE ET FINANCIÈRE ;;1;;;;;;;;;
+;2.0.0.0.0.0;AXE 2 : GESTION COMPTABLE ET FINANCIÈRE ;"<p>Les unités d’enseignement (UE) de « comptabilité » (UE 9), de « comptabilité approfondie » (UE 10), de « contrôle de gestion » (UE 11) et de « finance d’entreprise » (UE 6) ont pour objet de permettre au titulaire du DCG de disposer d’une démarche et des outils nécessaires pour enregistrer l’information comptable et financière, pour réaliser une analyse de la situation d’une organisation et disposer d’éléments d’aide à la prise de décision. </p>
+<p>Ces unités d’enseignement devront, notamment, permettre le développement de compétences spécifiques :  </p>";1;;;;;;;;;
 2.4.8.0.0.0;2.4.8.0.0.1;Rechercher, si besoin calculer et valider une information comptable ou financière;;1;;;;;;;;;
 2.4.8.0.0.0;2.4.8.0.0.2;Exploiter une documentation (chiffrée ou non);;1;;;;;;;;;
 2.4.8.0.0.0;2.4.8.0.0.3;Identifier les outils d’analyse adaptés;;1;;;;;;;;;
 2.4.8.0.0.0;2.4.8.0.0.4;Exploiter et commenter les résultats obtenus afin de proposer des décisions  à court, moyen et long terme;;1;;;;;;;;;
 2.4.8.0.0.0;2.4.8.0.0.5;Rédiger un argumentaire pour conseiller le décideur;;1;;;;;;;;;
-2.0.0.0.0.0;2.9.0.0.0.0;UE 9 - COMPTABILITÉ  ;;1;;;;;;;;;
+2.0.0.0.0.0;2.9.0.0.0.0;UE 9 - COMPTABILITÉ  ;<p>Niveau L : 170 heures – 14 ECTS </p>;1;;;;;;;;;
 2.9.0.0.0.0;2.9.1.0.0.0;1- Introduction (15 heures) ;<p>Présenter la comptabilité à travers son cadre normatif et juridique. </p>;1;;;;;;;;;
 2.9.1.0.0.0;2.9.1.1.0.0;1.1 Histoire, définition et rôle de la comptabilité ;"<h5>Sens et portée de l’étude</h5><p>Définir la comptabilité et ses rôles dans une perspective historique ; préciser son rôle social. </p><h5>Savoirs associés</h5><ul><li>* Approche historique de la comptabilité, et de ses relations avec l’économie et le droit. </li><li>* Définition de la comptabilité et de ses rôles pour les différents utilisateurs. </li><li>* Présentation et définition de la comptabilité budgétaire et de gestion ainsi que de la gestion financière. </li></ul>";1;;;;;;;;;
 2.9.1.1.0.0;2.9.1.1.0.1;Distinguer les différentes dimensions de la comptabilité et exposer leurs liens avec la gestion;;1;;;;;;;;;
@@ -387,7 +390,7 @@
 2.9.6.0.0.0;2.9.6.0.0.1;Établir et lire les documents de synthèse conformément aux dispositions du PCG.  ;;1;;;;;;;;;
 2.9.6.0.0.0;2.9.6.0.0.2;Élaborer les principaux tableaux de l’annexe (immobilisations, amortissements, dépréciations et provisions);;1;;;;;;;;;
 2.9.6.0.0.0;2.9.6.0.0.3;Justifier l’utilisation des documents de synthèse dans le cadre de la communication financière et/ou de l’obtention d’un financement;;1;;;;;;;;;
-2.0.0.0.0.0;2.10.0.0.0.0;UE 10 - COMPTABILITÉ APPROFONDIE  ;;1;;;;;;;;;
+2.0.0.0.0.0;2.10.0.0.0.0;UE 10 - COMPTABILITÉ APPROFONDIE  ;<p>Niveau L : 170 heures – 14 ECTS </p>;1;;;;;;;;;
 2.10.0.0.0.0;2.10.1.0.0.0;1- Profession et normalisation comptable (15 heures) ;<h5>Sens et portée de l’étude</h5><p>Connaître les enjeux actuels de la comptabilité à travers la présentation de la profession comptable et de la normalisation comptable. </p>;1;;;;;;;;;
 2.10.1.0.0.0;2.10.1.1.0.0;1.1 Profession comptable ;"<h5>Sens et portée de l’étude</h5><p>Positionner le rôle de la profession comptable au sein du monde économique. </p><h5>Savoirs associés</h5><ul><li>* Organisations professionnelles, leurs principaux rôles et leurs liens avec les régulateurs publics :  </li><li>*ordre des experts comptables ; </li><li>*compagnie nationale des commissaires aux comptes ;  -haut conseil du commissariat aux comptes. </li><li>* Diversité des statuts et des modalités d’exercice de la profession :  -expert-comptable ; </li><li>*commissaire aux comptes ; -comptable salarié ;  -comptable public. </li><li>* Principales missions de l’expert-comptable et du commissaire aux comptes. </li><li>* Nature des responsabilités du comptable salarié, du comptable public, de l’expert-comptable et du commissaire aux comptes. </li><li>* Notion d’éthique et de déontologie et principes fondamentaux de comportement à observer par la profession. </li></ul>";1;;;;;;;;;
 2.10.1.1.0.0;2.10.1.1.0.1;Identifier les modalités d’exercice de la profession, ses missions et ses responsabilités. - Expliquer les rôles des organisations professionnelles et le statut de leurs membres. - Appliquer les règles déontologiques à respecter par les experts-comptables et les commissaires aux comptes, dans une situation donnée;;1;;;;;;;;;
@@ -436,7 +439,7 @@
 2.10.0.0.0.0;2.10.5.0.0.0;5- Entités spécifiques (15 heures) ;"<h5>Sens et portée de l’étude</h5><p>Identifier et appliquer les adaptations des règles de comptabilisation aux associations et aux collectivités territoriales. </p><h5>Savoirs associés</h5><ul><li>* Associations : </li><li>*cadre légal et réglementaire ; </li><li>*principales sources de financement et obligations d’information liées ; </li><li>*principales opérations comptables ; -documents de synthèse. </li><li>* Collectivités locales :  </li><li>*cadre légal et réglementaire ; </li><li>*principe de séparation de l’ordonnateur et du comptable public et leurs fonctions ; </li><li>*notions de budget et d’équilibre budgétaire ; -principales opérations comptables ; -contrôle des comptes. </li></ul>";1;;;;;;;;;
 2.10.5.0.0.0;2.10.5.0.0.1;Exposer les spécificités propres aux associations et aux collectivités territoriales.  - Citer les principales particularités comptables des associations et des collectivités territoriales.  ;;1;;;;;;;;;
 2.10.5.0.0.0;2.10.5.0.0.2;Évaluer et comptabiliser les principales opérations;;1;;;;;;;;;
-2.0.0.0.0.0;2.11.0.0.0.0;UE 11 - CONTRÔLE DE GESTION  ;;1;;;;;;;;;
+2.0.0.0.0.0;2.11.0.0.0.0;UE 11 - CONTRÔLE DE GESTION  ;<p>Niveau L : 200 heures – 14 ECTS </p>;1;;;;;;;;;
 2.11.0.0.0.0;2.11.1.0.0.0;1- Le positionnement du contrôle de gestion et l’identification du métier (10 heures) ;<h5>Sens et portée de l’étude</h5><p>Le contrôle de gestion peut se définir comme un processus d'aide à la décision dans une organisation, permettant une intervention avant, pendant et après l'action. Il constitue également un mode de régulation des comportements. </p><p>Il doit être positionné par rapport au contrôle stratégique, sachant que le programme porte fondamentalement sur le contrôle opérationnel. Il convient donc d'aborder le pilotage de l'organisation, non seulement dans une approche fonctionnelle, mais aussi dans une approche globale. </p><h5>Savoirs associés</h5><ul><li>* Les notions de contrôle, contrôle stratégique et contrôle opérationnel. </li><li>* Les notions de valeur, utilité, coût, pilotage et performance. </li><li>* Le contrôle de gestion : définition, rôle et place par rapport aux autres domaines disciplinaires et aux autres formes de contrôle. </li><li>* Les missions du contrôle de gestion. </li><li>* Les utilisateurs du contrôle de gestion. </li><li>* Le positionnement et la contingence du contrôle de gestion dans une organisation. </li><li>* Les qualités attendues du contrôleur de gestion. </li></ul>;1;;;;;;;;;
 2.11.1.0.0.0;2.11.1.0.0.1;Identifier le rôle et la place du contrôle de gestion en fonction des caractéristiques de l'organisation (taille, activité, environnement) et du type d’activité (production, service);;1;;;;;;;;;
 2.11.1.0.0.0;2.11.1.0.0.2;Distinguer les différentes définitions de la performance;;1;;;;;;;;;
@@ -473,7 +476,7 @@
 2.11.4.0.0.0;2.11.4.0.0.2;Exploiter les outils de gestion de la qualité. - Rédiger une note de synthèse sur la gestion de la qualité et identifier des solutions aux éventuels problèmes détectés;;1;;;;;;;;;
 2.11.4.0.0.0;2.11.4.0.0.3;Concevoir un tableau de bord de gestion;;1;;;;;;;;;
 2.11.4.0.0.0;2.11.4.0.0.4;Commenter un tableau de bord de gestion;;1;;;;;;;;;
-2.0.0.0.0.0;2.6.0.0.0.0;UE 6 - FINANCE D’ENTREPRISE  ;;1;;;;;;;;;
+2.0.0.0.0.0;2.6.0.0.0.0;UE 6 - FINANCE D’ENTREPRISE  ;<p>Niveau L : 150 heures - 14 ECTS </p>;1;;;;;;;;;
 2.6.0.0.0.0;2.6.1.0.0.0;1- Le diagnostic financier des comptes sociaux (40 heures)  ;<p>Sens et portée de l'étude  </p><p>Le diagnostic financier doit permettre de porter un jugement sur les forces et les faiblesses de l'entreprise à partir de données pluriannuelles sur ses états financiers et des informations sectorielles, en vue d’émettre des préconisations. </p>;1;;;;;;;;;
 2.6.1.0.0.0;2.6.1.1.0.0;1.1 La démarche de diagnostic  ;<p>Sens et portée de l'étude Mettre en œuvre des méthodes d’analyse des états financiers qui varient en fonction de l’information disponible et du contexte du diagnostic. </p><h5>Savoirs associés</h5><ul><li>* Définition du diagnostic financier d’une entreprise. - Diversité des méthodes de diagnostic. </li><li>* Définition et articulation des documents de synthèse : bilan, compte de résultat et annexe. - Comparaison dans le temps. </li><li>* Comparaison des données de l’entreprise à celles de son secteur. </li><li>* Intérêts et limites des informations sectorielles. </li></ul>;1;;;;;;;;;
 2.6.1.1.0.0;2.6.1.1.0.1;Expliciter le caractère multidimensionnel du diagnostic d’entreprise;;1;;;;;;;;;
@@ -532,7 +535,7 @@
 2.6.3.1.0.0;2.6.3.1.0.1;Distinguer les modes de financement et évaluer leur coût respectif;;1;;;;;;;;;
 2.6.3.1.0.0;2.6.3.1.0.2;Déterminer et valoriser le montant des engagements financiers de l’entreprise;;1;;;;;;;;;
 2.6.3.1.0.0;2.6.3.1.0.3;Calculer et comparer les coûts des différents moyens de financement en intégrant l’impôt sur les bénéfices;;1;;;;;;;;;
-2.6.3.1.0.0;2.6.3.1.0.4;*Identifier une ou plusieurs solutions de financement;;1;;;;;;;;;
+2.6.3.1.0.0;2.6.3.1.0.4;Identifier une ou plusieurs solutions de financement;;1;;;;;;;;;
 2.6.3.0.0.0;2.6.3.2.0.0;3.2 Les marchés financiers Sens et portée de l'étude ;<p>Après avoir resitué le marché financier comme un mode de financement direct au sein de l’économie, déterminer l’apport des marchés financiers en matière de politique de financement et d’information financière de qualité. </p><h5>Savoirs associés</h5><ul><li>* Le marché financier : définition, organisation et présentation des différentes catégories de titres, indices boursiers.  </li><li>* Les composantes du marché financier. </li><li>* Les relations entre qualité de l’information, prix de marché et coût d’un financement extérieur. </li><li>* Les relations entre taux actuariel de marché, taux nominal et valeur de marché des titres.  </li><li>* La cote des actions et des obligations. </li></ul>;1;;;;;;;;;
 2.6.3.2.0.0;2.6.3.2.0.1;Mettre en évidence les grands principes d’organisation.  ;;1;;;;;;;;;
 2.6.3.2.0.0;2.6.3.2.0.2;Identifier les produits du marché financier;;1;;;;;;;;;
@@ -563,13 +566,14 @@
 2.6.4.3.0.0;2.6.4.3.0.2;Calculer la rentabilité espérée ou la valeur théorique sur une période d’un titre financier.  ;;1;;;;;;;;;
 2.6.4.3.0.0;2.6.4.3.0.3;Déterminer différents placements sur les marchés financiers.  ;;1;;;;;;;;;
 2.6.4.3.0.0;2.6.4.3.0.4;Incorporer les gains des placements dans la trésorerie;;1;;;;;;;;;
-;3.0.0.0.0.0;AXE 3 : ANALYSE ÉCONOMIQUE ET MANAGÉRIALE ;;1;;;;;;;;;
+;3.0.0.0.0.0;AXE 3 : ANALYSE ÉCONOMIQUE ET MANAGÉRIALE ;"<p>Les unités d’enseignement « d’économie contemporaine » (UE 5) et de « management » (UE7) ont pour objet de permettre au titulaire du DCG d’appréhender l’environnement économique et managérial des organisations afin de comprendre les défis et les problématiques auxquels ces dernières sont confrontées. </p>
+<p>Ces unités d’enseignement devront, notamment, permettre le développement de compétences spécifiques : </p>";1;;;;;;;;;
 3.6.4.3.0.0;3.6.4.3.0.1;Exploiter des documents de nature variée (statistiques, presse spécialisée, multimédia…);;1;;;;;;;;;
 3.6.4.3.0.0;3.6.4.3.0.2;Développer une culture économique et managériale actualisée visant à comprendre les enjeux auxquels les organisations font face, notamment par le biais d’une veille informationnelle;;1;;;;;;;;;
 3.6.4.3.0.0;3.6.4.3.0.3;Analyser des situations et décisions économiques ou managériales;;1;;;;;;;;;
 3.6.4.3.0.0;3.6.4.3.0.4;Élaborer une argumentation à partir d’une problématique donnée, en mobilisant le vocabulaire spécifique adapté ainsi que les concepts et les illustrations nécessaires (factuelles ou théoriques);;1;;;;;;;;;
-3.0.0.0.0.0;3.5.0.0.0.0;UE 5 - ÉCONOMIE CONTEMPORAINE  ;;1;;;;;;;;;
-3.5.0.0.0.0;3.5.1.0.0.0;1- Fondements et finalités de l’activité économique (20 heures)    ;;1;;;;;;;;;
+3.0.0.0.0.0;3.5.0.0.0.0;UE 5 - ÉCONOMIE CONTEMPORAINE  ;<p>Niveau L : 200 heures – 14 ECTS </p>;1;;;;;;;;;
+3.5.0.0.0.0;3.5.1.0.0.0;1- Fondements et finalités de l’activité économique (20 heures) ;;1;;;;;;;;;
 3.5.1.0.0.0;3.5.1.1.0.0;1.1 Quels problèmes l’économie tente-t-elle de résoudre ?  ;<h5>Sens et portée de l’étude</h5><p>Face à des problématiques contemporaines, il s'agit de mettre en évidence comment l’économie se situe au cœur de la vie et des décisions des individus, tout en tenant compte des nouveaux enjeux du développement durable. </p><p>L’économie peut être appréhendée comme une science des choix dans un contexte de rareté des ressources. </p><h5>Savoirs associés</h5><ul><li>* Le concept de science économique. </li><li>* La variété et la rareté des ressources. </li><li>* L’allocation des ressources. </li></ul>;1;;;;;;;;;
 3.5.1.1.0.0;3.5.1.1.0.1;Mettre en évidence l’omniprésence du problème de la rareté des ressources;;1;;;;;;;;;
 3.5.1.1.0.0;3.5.1.1.0.2;Identifier l’allocation des ressources comme une recherche de l’adéquation entre des ressources rares et des besoins illimités;;1;;;;;;;;;
@@ -661,7 +665,7 @@
 3.5.5.3.0.0;3.5.5.3.0.2;Analyser les enjeux de la lutte contre les inégalités et de la couverture des risques sociaux;;1;;;;;;;;;
 3.5.5.3.0.0;3.5.5.3.0.3;Caractériser les différents instruments des politiques de redistribution;;1;;;;;;;;;
 3.5.5.3.0.0;3.5.5.3.0.4;Analyser l’évolution des principales dépenses et recettes des politiques contemporaines de redistribution;;1;;;;;;;;;
-3.0.0.0.0.0;3.7.0.0.0.0;UE 7 - MANAGEMENT  ;;1;;;;;;;;;
+3.0.0.0.0.0;3.7.0.0.0.0;UE 7 - MANAGEMENT  ;<p>Niveau L : 200 heures – 14 ECTS </p>;1;;;;;;;;;
 3.7.0.0.0.0;3.7.1.0.0.0;1- Les enjeux du management des organisations (35 heures) ;<p>L’étude de ce thème vise à délimiter et à positionner le management dans toutes les dimensions de son environnement. Il s’agit également de montrer la diversité des enjeux et des tensions à piloter. </p>;1;;;;;;;;;
 3.7.1.0.0.0;3.7.1.1.0.0;1.1 Quelles sont les spécificités des différentes organisations ? ;<h5>Sens et portée de l’étude</h5><p>L’observation de situations réelles amène à saisir la grande variété des organisations. Chacune possède des spécificités et des objectifs propres (croissance, pérennité, rentabilité, soutenabilité) et fait face à des enjeux parfois différents, influençant ainsi le choix du management en place.  </p><h5>Savoirs associés</h5><ul><li>* Organisation.  </li><li>* Entreprise. </li><li>* Théorie des coûts de transaction (Coase, Williamson). </li><li>* Formes d’organisation : organisation publique ou privée, association, coopérative, mutuelle, fondation. - Caractéristiques des organisations : forme et type, finalité, but, métier, ressources, dimension géographique. </li></ul>;1;;;;;;;;;
 3.7.1.1.0.0;3.7.1.1.0.1;Identifier les spécificités d’une organisation donnée selon sa forme;;1;;;;;;;;;
@@ -717,12 +721,14 @@
 3.7.4.2.0.0;3.7.4.2.0.3;Repérer et analyser les moyens et les outils mis en œuvre par chaque activité;;1;;;;;;;;;
 3.7.4.2.0.0;3.7.4.2.0.4;Analyser l’impact du numérique sur toutes les activités de l’organisation;;1;;;;;;;;;
 3.7.4.2.0.0;3.7.4.2.0.5;Identifier les contributions des activités à des problématiques managériales actuelles;;1;;;;;;;;;
-;4.0.0.0.0.0;AXE 4 : COMMUNICATION ET ENVIRONNEMENT NUMÉRIQUE ;;1;;;;;;;;;
+;4.0.0.0.0.0;AXE 4 : COMMUNICATION ET ENVIRONNEMENT NUMÉRIQUE ;"<p>Les unités d’enseignement de « systèmes d’information de gestion » (UE8), de « communication professionnelle » (UE 13), « d’anglais des affaires » (UE 12) et l’unité d’enseignement facultative de LV2 (UE 14) doivent permettre au titulaire du DCG de mieux traiter les informations et les échanges  en vue d’une communication professionnelle. </p>
+<p>Ces unités d’enseignement devront, notamment, permettre le développement de compétences spécifiques :  </p>";1;;;;;;;;;
 4.7.4.2.0.0;4.7.4.2.0.1;Produire et communiquer une information fiable et sécurisée;;1;;;;;;;;;
 4.7.4.2.0.0;4.7.4.2.0.2;Maîtriser les ressources numériques de l’organisation;;1;;;;;;;;;
 4.7.4.2.0.0;4.7.4.2.0.3;Adapter la communication au contexte;;1;;;;;;;;;
-4.7.4.2.0.0;4.7.4.2.0.4;"Utiliser une documentation ou une application informatique en langue étrangère ; - produire des méthodes utiles à l’organisation";;1;;;;;;;;;
-4.0.0.0.0.0;4.8.0.0.0.0;UE 8 - SYSTÈME D’INFORMATION DE GESTION  ;;1;;;;;;;;;
+4.7.4.2.0.0;4.7.4.2.0.4;Utiliser une documentation ou une application informatique en langue étrangère;;1;;;;;;;;;
+4.7.4.2.0.0;4.7.4.2.0.5;Produire des méthodes utiles à l’organisation;;;;;;;;;;;
+4.0.0.0.0.0;4.8.0.0.0.0;UE 8 - SYSTÈME D’INFORMATION DE GESTION  ;<p>Niveau L : 200 heures – 14 ECTS </p>;1;;;;;;;;;
 4.8.0.0.0.0;4.8.1.0.0.0;1- Le système d’information : description et analyse (30 heures) ;;1;;;;;;;;;
 4.8.1.0.0.0;4.8.1.1.0.0;1.1 Le rôle du système d’information dans les organisations ;<h5>Sens et portée de l’étude</h5><p>Le système d’information (SI) d’une organisation permet de collecter, produire, mémoriser et diffuser une information de qualité nécessaire aux acteurs.  </p><h5>Savoirs associés</h5><ul><li>* Critères de qualité de l’information : accessibilité, exactitude, actualité, pertinence, exhaustivité. </li><li>* Nature et composantes du système d’information : </li></ul>;1;;;;;;;;;
 4.8.1.1.0.0;4.8.1.1.0.1;Analyser la qualité d’une information.  ;;1;;;;;;;;;
@@ -802,7 +808,7 @@
 4.8.3.3.0.0;4.8.3.3.0.2;Caractériser et apprécier une procédure d'échange de données informatisées;;1;;;;;;;;;
 4.8.3.3.0.0;4.8.3.3.0.3;Justifier le recours à la signature électronique et au certificat numérique;;1;;;;;;;;;
 4.8.3.3.0.0;4.8.3.3.0.4;Caractériser et exploiter les fichiers d’échange de données exigés par la législation en vigueur;;1;;;;;;;;;
-4.0.0.0.0.0;4.13.0.0.0.0;UE 13 - COMMUNICATION PROFESSIONNELLE  ;;1;;;;;;;;;
+4.0.0.0.0.0;4.13.0.0.0.0;UE 13 - COMMUNICATION PROFESSIONNELLE  ;<p>Niveau L : 60 heures – 12 ECTS </p>;1;;;;;;;;;
 4.13.0.0.0.0;4.13.0.0.0.1;L’acquisition de méthodes de communication professionnelle écrite ou orale;;1;;;;;;;;;
 4.13.0.0.0.0;4.13.0.0.0.2;La mise en pratique de ces méthodes au travers d’un stage;;1;;;;;;;;;
 4.13.0.0.0.0;4.13.0.0.0.3;La prise de connaissance de la réalité des relations professionnelles dans les domaines étudiés au sein des unités composant le DCG;;1;;;;;;;;;
@@ -842,9 +848,13 @@
 4.13.3.0.0.0;4.13.3.0.0.0; * l’activité de l’organisation (4 pages maximum);;1;;;;;;;;;
 4.13.3.0.0.0;4.13.3.0.0.0; * la présentation et l’analyse d’un processus auquel le candidat a participé, mentionnant le (ou les) logiciel(s) professionnel(s) mobilisé(s) au cours de ce processus en présentant son intérêt et en justifiant la mobilisation du (ou des) logiciel(s) professionnel(s) ou d’une base de données (6 pages maximum);;1;;;;;;;;;
 4.13.3.0.0.0;4.13.3.0.0.1;Une partie structurée, qui fera l'objet de la soutenance, de 30 pages au maximum (hors annexes et bibliographie) développant un sujet directement en rapport avec les observations effectuées par le stagiaire et permettant au candidat de faire preuve de réflexion et d’analyse critique;;1;;;;;;;;;
-4.0.0.0.0.0;4.12.0.0.0.0;UE 12 - ANGLAIS DES AFFAIRES   ;;1;;;;;;;;;
+4.0.0.0.0.0;4.12.0.0.0.0;UE 12 - ANGLAIS DES AFFAIRES   ;<p>Niveau L : 150 heures – 14 ECTS </p>;1;;;;;;;;;
 4.12.0.0.0.0;4.12.0.0.0.1;Comprendre et commenter, en anglais, des documents de la vie des affaires tels que des textes, graphiques, et tableaux tirés de revues ou d’un rapport annuel d’entreprise;;1;;;;;;;;;
 4.12.0.0.0.0;4.12.0.0.0.2;Rédiger une note de synthèse en français ou en anglais, à partir de documents en anglais concernant les thèmes ci-dessous;;1;;;;;;;;;
 4.12.0.0.0.0;4.12.0.0.0.3;Rédiger en anglais un document de travail;;1;;;;;;;;;
-4.12.0.0.0.0;4.12.1.0.0.0;1- L’ENTREPRISE ;<p>L’organisation d’une entreprise.  La révolution numérique. </p><p>L’entreprise citoyenne. </p><p>Stratégie et compétitivité d’une entreprise. </p><p>L’économie sociale et solidaire. </p><p>Conditions de travail et dialogue social. Communication et culture d’entreprise. </p>;1;;;;;;;;;
-4.12.0.0.0.0;4.12.2.0.0.0;2- QUESTIONS D’ÉCONOMIE ;#N/A;1;;;;;;;;;
+4.12.0.0.0.0;4.12.1.0.0.0;1- L’ENTREPRISE ;<ul><li>* L’organisation d’une entreprise.  La révolution numérique. </li><li>* L’entreprise citoyenne. </li><li>* Stratégie et compétitivité d’une entreprise. </li><li>* L’économie sociale et solidaire. </li><li>* Conditions de travail et dialogue social.</li><li>* Communication et culture d’entreprise. </li></ul>;1;;;;;;;;;
+4.12.0.0.0.0;4.12.2.0.0.0;2- QUESTIONS D’ÉCONOMIE ;"<ul><li>* Les énergies. </li>
+<li>* La concurrence et la loi. </li>
+<li>* La mondialisation. </li>
+<li>* Les principaux espaces économiques régionaux.</li><li>* Les pays émergents. </li>
+<li>* La protection sociale, l’évolution de la démographie.</li> </ul>";1;;;;;;;;;
