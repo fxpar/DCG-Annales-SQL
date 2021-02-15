@@ -55,8 +55,7 @@ Le logiciel de conversion https://www.rebasedata.com/convert-excel-to-sqlite-onl
 
 # Cours SQL avec Quiz intégré
 
-![Intro Sql](https://www.fxparlant.net/wp-content/uploads/2021/02/h5p-sql.svg)
-
+https://www.fxparlant.net/decouverte-sql
 
 
 
